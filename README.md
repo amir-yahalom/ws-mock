@@ -1,5 +1,4 @@
 # ws-mock
-========
 Node module for mocking Web Socket (server side).
 Can be very helpful if you want to test ws-dependent code.
 
