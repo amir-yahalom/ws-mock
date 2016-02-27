@@ -1,4 +1,4 @@
-var WsServerMock = require('.lib/ws-server-mock');
+var WsServerMock = require('./lib/ws-server-mock');
 
 module.exports = {
     WsServer: WsServerMock
