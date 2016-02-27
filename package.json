@@ -1,0 +1,25 @@
+{
+  "name": "ws-mock",
+  "version": "0.0.1",
+  "description": "Node module for mocking Web Socket (server side)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/amir-yahalom/ws-mock.git"
+  },
+  "keywords": [
+    "ws-mock",
+    "ws",
+    "ws-mock",
+    "ws mock"
+  ],
+  "author": "Amir Yahalom <amir.ayd@gmail.com>",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
+  },
+  "license": "MIT"
+}
