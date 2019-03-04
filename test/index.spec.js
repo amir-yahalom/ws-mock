@@ -36,19 +36,18 @@ describe("#ws-mock", function () {
 });
 
 function MyServer(wsServer) {
-    var incomingMsg = [],
-        that = this;
+    const incomingMsg = [];
 
-    wsServer.on('connection', function (ws) {
+    wsServer.on('connection', (ws) => {
         console.log("new connection...");
-        ws.on('message', function (msg) {
+        ws.on('message', (msg) => {
             console.log("incoming message:", msg);
             incomingMsg.push(msg);
             ws.send(msg);
         });
-        ws.on('close', function () {
+        ws.on('close', () => {
             console.log("connection closed...");
-            that.onClosedConnection();
+            this.onClosedConnection();
         });
     });
 
