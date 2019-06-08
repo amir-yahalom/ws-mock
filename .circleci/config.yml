@@ -5,7 +5,12 @@ jobs:
       - image: circleci/node
     steps:
       - checkout
-      - run: npm test
+      - run:
+          name: Install
+          command: npm i
+      - run:
+          name: Test
+          command: npm test
 workflows:
   version: 2
   test:
