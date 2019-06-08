@@ -4,7 +4,7 @@
   "description": "Node module for mocking Web Socket (server side)",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
