@@ -1,6 +1,6 @@
 {
   "name": "ws-mock",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Node module for mocking Web Socket (server side)",
   "main": "index.js",
   "scripts": {
