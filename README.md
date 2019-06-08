@@ -1,4 +1,7 @@
 # ws-mock
+
+<p><a href="https://nodei.co/npm/ws-mock/"><img src="https://nodei.co/npm/ws-mock.png"></a></p>
+
 Node module for mocking Web Socket (server side).
 Can be very helpful if you want to test ws-dependent code.
 
